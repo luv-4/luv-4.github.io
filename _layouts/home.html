@@ -12,8 +12,6 @@ site.show_hero and paginator == nil or paginator.page == 1 %} {% assign offset =
   class="home {% if site.show_hero and paginator == nil or paginator.page == 1 %}no-padding{% endif %}"
   role="main"
 >
-  [![Solved.ac
-  Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ckj31110)](https://solved.ac/ckj31110/)
   {% if site.show_hero and paginator == nil or paginator.page == 1 %}
   <!-- Hero -->
   {% assign featured = posts.first %}
@@ -43,6 +41,8 @@ site.show_hero and paginator == nil or paginator.page == 1 %} {% assign offset =
   </section>
   {% endif %}
   <!-- Posts -->
+  {[![Solved.ac
+  Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ckj31110)](https://solved.ac/ckj31110/)}
   <section id="grid" class="row flex-grid">
     {% for post in posts offset: offset %}
     <article class="box-item">
