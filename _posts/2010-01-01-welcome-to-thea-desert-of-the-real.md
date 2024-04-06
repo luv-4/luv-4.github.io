@@ -94,6 +94,8 @@ Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliqua
 
 Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ckj31110)](https://solved.ac/ckj31110/)
+
 <table>
   <thead>
     <tr>
