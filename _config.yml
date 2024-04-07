@@ -1,24 +1,21 @@
 # Site Settings
-name: 4luv
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: 4Luv
+title: 4Luv | 4Luv
+description:
 tags:
   - blog
   - template
   - jekyll
   - theme
   - netlify
-show_hero: false
+show_hero: true
 menu:
-  - title: Home
+  - title: 홈
     url: /
-  - title: About
+  - title: 카테고리
     url: /about
-  - title: Contact
+  - title: 방명록
     url: /contact
-  - title: Feed
-    url: /feed.xml
 email: 4luv1015@naver.com
 # See: https://disqus.com/
 # Contact Form Setting
