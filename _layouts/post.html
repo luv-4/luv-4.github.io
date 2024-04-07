@@ -30,6 +30,17 @@
         <img src="{{ page.image }}" alt="Featured image" class="post-cover" />
         {% endif %} {% include pagination-post.html progressBar=true %} {%
         include toc.html %} {{ content }} {% include pagination-post.html %}
+
+        <br />
+        <script
+          src="https://utteranc.es/client.js"
+          repo="luv-4/comment"
+          issue-term="pathname"
+          label="utterances"
+          theme="github-light"
+          crossorigin="anonymous"
+          async
+        ></script>
       </article>
 
       {% if site.two_columns_layout %}
@@ -56,16 +67,6 @@
         </ul>
       </aside>
       {% endif %}
-      <br />
-      <script
-        src="https://utteranc.es/client.js"
-        repo="luv-4/comment"
-        issue-term="pathname"
-        label="utterances"
-        theme="github-light"
-        crossorigin="anonymous"
-        async
-      ></script>
     </section>
 
     <!-- Add time bar only for pages without pagination -->
