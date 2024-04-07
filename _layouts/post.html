@@ -56,17 +56,17 @@
         </ul>
       </aside>
       {% endif %}
+      <br />
+      <script
+        src="https://utteranc.es/client.js"
+        repo="luv-4/comment"
+        issue-term="pathname"
+        label="utterances"
+        theme="github-light"
+        crossorigin="anonymous"
+        async
+      ></script>
     </section>
-
-    <script
-      src="https://utteranc.es/client.js"
-      repo="luv-4/comment"
-      issue-term="pathname"
-      label="utterances"
-      theme="github-light"
-      crossorigin="anonymous"
-      async
-    ></script>
 
     <!-- Add time bar only for pages without pagination -->
     {% if paginator.activated == nil and site.show_time_bar == true %} {%
