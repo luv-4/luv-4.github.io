@@ -14,7 +14,7 @@ category: blog
 tags:
   - welcome
   - blog
-author: mranderson
+author:
 paginate: true
 ---
 
