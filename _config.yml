@@ -12,8 +12,6 @@ show_hero: true
 menu:
   - title: 홈
     url: /
-  - title: 카테고리
-    url: /about
   - title: 방명록
     url: /contact
 email: 4luv1015@naver.com
