@@ -2,7 +2,10 @@
 endcapture %} {% else %} {% assign teaser = site.teaser %} {% endif %} {% if
 post.id %} {% assign title = post.title | markdownify | remove: "
 <p>" | remove: "</p>
-" %} {% else %} {% assign title = post.title %} {% endif %}
+" %} {% else %} {% assign title = post.title %} {% endif %} {% if teaser %} {%
+else %} {% assign teaser =
+"https://thumb.photo-ac.com/5b/5b92f7a952036acbaf89f076c5951785_t.jpeg" %} {%
+endif %}
 
 <div class="{{ include.type | default: 'list' }}__item">
   <article
