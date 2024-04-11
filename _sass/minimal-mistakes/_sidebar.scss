@@ -69,6 +69,12 @@
       height: 20px;
     }
   }
+
+  -ms-overflow-style: none;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
 }
 
 .sidebar__right {

@@ -1,7 +1,7 @@
 {% if post.header.teaser %} {% capture teaser %}{{ post.header.teaser }}{%
 endcapture %} {% else %} {% assign teaser = site.teaser %} {% endif %} {% if
 post.id %} {% assign title = post.title | markdownify | remove: "
-<p>" | remove: "</p>
+<a>" | remove: "</a>
 " %} {% else %} {% assign title = post.title %} {% endif %} {% if teaser %} {%
 else %} {% assign teaser =
 "https://thumb.photo-ac.com/5b/5b92f7a952036acbaf89f076c5951785_t.jpeg" %} {%
@@ -26,7 +26,7 @@ endif %}
         ><span class="sr-only">Permalink</span></a
       >
       {% else %}
-      <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+      <a href="{{ post.url | relative_url }}" rel="permalink"> {{ title }} </a>
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %} {% if post.date %}

@@ -197,7 +197,8 @@
     }
 
     &.site-title {
-      margin-left: 0;
+      margin: 0px;
+      font-family: "Bebas Neue";
     }
   }
 
@@ -568,6 +569,6 @@
   }
 
   li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
+    padding-left: 3.25rem;
   }
 }
