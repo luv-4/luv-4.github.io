@@ -3,7 +3,7 @@ title: "이미지 없음"
 excerpt:
 
 categories:
-  - Blog
+  - Implementation
 tags:
   - [Blog, jekyll, Github, Git]
 

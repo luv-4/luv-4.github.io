@@ -1,8 +1,8 @@
 ---
-title: "백준 문제풀이"
-excerpt: "With C++"
+title: "잡동사니"
+excerpt: "With Description"
 layout: archive
-permalink: categories/baekjoon
+permalink: categories/etc
 author_profile: true
 sidebar_main: true
 header:
@@ -10,7 +10,7 @@ header:
   overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
 ---
 
-{% assign posts = site.categories.Baekjoon %}
+{% assign posts = site.categories.Etc %}
 
 <div class="grid__wrapper">
 {% for post in posts %} {% include archive-single.html type="grid"

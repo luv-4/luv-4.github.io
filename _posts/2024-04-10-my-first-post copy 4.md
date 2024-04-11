@@ -6,7 +6,7 @@ header:
   overlay_filter: 0.5
   teaser: https://i.namu.wiki/i/m6l0w2CgAGQrxSKy7rrcLB261rrMO-oq04ZCnS-wEU5sNqq8rR-gG2Zki_HloDFgP7gdfM_IoQK_m19OGqJKjw.webp
 categories:
-  - Blog
+  - Etc
 tags:
   - [Blog, jekyll, Github, Git]
 

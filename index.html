@@ -11,8 +11,32 @@ header:
   overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
 ---
 
-<div class="grid__wrapper">
-  {% for post in paginator.posts %} {% include archive-single.html type="grid"
-  %} {% endfor %}
+<div style="padding-bottom: 0.5em; white-space: nowrap; font-size: larger">
+  백준 문제 풀이
 </div>
-{% include paginator.html %}
+<div style="padding-bottom: 1em">
+  <div>
+    <div class="grid__wrapper">
+      {% for post in site.categories.Baekjoon %} {% include archive-single.html
+      type="grid" %} {% endfor %}
+    </div>
+  </div>
+</div>
+<div style="padding-bottom: 0.5em; font-size: larger">알고리즘 구현</div>
+<div style="padding-bottom: 1em">
+  <div>
+    <div class="grid__wrapper">
+      {% for post in site.categories.Implementation %} {% include
+      archive-single.html type="grid" %} {% endfor %}
+    </div>
+  </div>
+</div>
+<div style="padding-bottom: 0.5em; font-size: larger">잡동사니</div>
+<div style="padding-bottom: 1em">
+  <div>
+    <div class="grid__wrapper">
+      {% for post in site.categories.Etc %} {% include archive-single.html
+      type="grid" %} {% endfor %}
+    </div>
+  </div>
+</div>

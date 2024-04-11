@@ -8,7 +8,7 @@ header:
   teaser: https://i.namu.wiki/i/aRAQu813Cdn2FJ5Uo3bxqMPqxGnQX7qSHbGsQiiKBbzruZKKKXOjBmVQuietbkSvq54sGhe7RFKa16HqIsLyFQ.webp
 
 categories:
-  - Blog
+  - Baekjoon
 tags:
   - [Blog, jekyll, Github, Git]
 

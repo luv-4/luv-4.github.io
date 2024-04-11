@@ -26,7 +26,9 @@ endif %}
         ><span class="sr-only">Permalink</span></a
       >
       {% else %}
-      <a href="{{ post.url | relative_url }}" rel="permalink"> {{ title }} </a>
+      <a href="{{ post.url | relative_url }}" rel="permalink">
+        {{post.title}}
+      </a>
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %} {% if post.date %}
