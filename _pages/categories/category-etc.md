@@ -4,6 +4,7 @@ excerpt: "With Description"
 layout: archive
 permalink: categories/etc
 author_profile: true
+entries_layout: grid
 sidebar_main: true
 header:
   overlay_image: /assets/images/background.png

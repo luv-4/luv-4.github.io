@@ -5,7 +5,6 @@ layout: archive
 sidebar_main: ture
 author_profile: true
 entries_layout: grid
-home: true
 header:
   overlay_image: /assets/images/background.png
   overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
@@ -17,8 +16,8 @@ header:
 <div style="padding-bottom: 1em">
   <div>
     <div class="grid__wrapper">
-      {% for post in site.categories.Baekjoon %} {% include archive-single.html
-      type="grid" %} {% endfor %}
+      {% for post in site.categories.Baekjoon limit:4 %} {% include
+      archive-single.html type="grid" %} {% endfor %}
     </div>
   </div>
 </div>
@@ -26,7 +25,7 @@ header:
 <div style="padding-bottom: 1em">
   <div>
     <div class="grid__wrapper">
-      {% for post in site.categories.Implementation %} {% include
+      {% for post in site.categories.Implementation limit:4 %} {% include
       archive-single.html type="grid" %} {% endfor %}
     </div>
   </div>
@@ -35,8 +34,8 @@ header:
 <div style="padding-bottom: 1em">
   <div>
     <div class="grid__wrapper">
-      {% for post in site.categories.Etc %} {% include archive-single.html
-      type="grid" %} {% endfor %}
+      {% for post in site.categories.Etc limit:4 %} {% include
+      archive-single.html type="grid" %} {% endfor %}
     </div>
   </div>
 </div>
