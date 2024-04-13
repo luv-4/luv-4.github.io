@@ -18,13 +18,17 @@
 <!--두 번째 문단-->
 {% if prev_post or next_post %}
   <nav class="pagination">
-
     <div class="grid__wrapper">
+      {% if prev_post %}
       {% assign post = prev_post %}
       {% include archive-single.html type="grid" para="pre" %}
+      {% endif %}
+
+      {% if next_post %}
       {% assign post = next_post %} 
       {% include archive-single.html type="grid" para="nxt" %}
+      {% endif %}
     </div>
-
   </nav>
 {% endif %}
+ 
