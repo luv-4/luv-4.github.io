@@ -133,7 +133,8 @@
     border-radius: $border-radius;
 
     &:hover {
-      @include yiq-contrasted($muted-text-color);
+      background-color: #272727;
+      color: white;
     }
 
     &:first-child {
@@ -523,7 +524,8 @@
 
   // Scrollspy marks toc items as .active when they are in focus
   .active a {
-    @include yiq-contrasted($active-color);
+    background-color: #272727;
+    color: white
   }
 }
 
@@ -570,5 +572,34 @@
 
   li ul li ul li ul li ul li ul > li a {
     padding-left: 3.25rem;
+  }
+}
+
+.pagination_prev_next {
+  @include clearfix();
+  float: left;
+  width: 100%;
+
+  /* next/previous buttons */
+  &--pager {
+    margin-top: 0em;
+    padding-top: 0em;
+    display: block;
+    padding: 1em 2em;
+    //float: left;
+    width: 100%;
+    font-family: $sans-serif;
+    font-size: $type-size-5;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: $muted-text-color;
+
+    border-radius: $border-radius;
+
+    .prev_next {
+      font-family: $sans-serif;
+      color:white;
+    }
   }
 }

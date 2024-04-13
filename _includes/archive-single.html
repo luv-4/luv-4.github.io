@@ -13,6 +13,12 @@ endif %}
     itemscope
     itemtype="https://schema.org/CreativeWork"
   >
+  {% if include.para == "pre" %}
+  <div style="margin-bottom: 0.5em;">이전 글</div>
+  {% endif %}
+  {% if include.para == "nxt" %}
+  <div style="margin-bottom: 0.5em;">다음 글</div>
+  {% endif %}
     {% if include.type == "grid" and teaser %}
     <div class="archive__item-teaser">
       <img src="{{ teaser | relative_url }}" alt="" />
@@ -36,10 +42,6 @@ endif %}
       <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date
       | date: "%B %d %Y" }}
     </p>
-    {% endif %} {% if post.excerpt %}
-    <p class="archive__item-excerpt" itemprop="description">
-      {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
-    </p>
-    {% endif %}
+    {% endif %}   
   </article>
 </div>
