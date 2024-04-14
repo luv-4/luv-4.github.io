@@ -442,10 +442,14 @@ body {
    ========================================================================== */
 
 .page__comments {
-  float: left;
+
   margin-left: 0;
   margin-right: 0;
   clear: both;
+
+  @include breakpoint($medium) {
+    float: left;
+  }
 
   @include breakpoint($large) {
     float: right;
