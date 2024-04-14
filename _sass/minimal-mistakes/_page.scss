@@ -446,6 +446,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   clear: both;
+  float: left;
 
   @include breakpoint($medium) {
     float: left;
