@@ -445,21 +445,20 @@ body {
 
   margin-left: 0;
   margin-right: 0;
+  padding: 0px;
   clear: both;
   float: left;
 
-  @include breakpoint($medium) {
-    float: left;
-  }
-
   @include breakpoint($large) {
-    float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
+    padding-left: 300px;
   }
 
   @include breakpoint($x-large) {
-    float: right;
     width: calc(100% - #{$right-sidebar-width});
+    padding-right: $right-sidebar-width;
+    padding-left: 300px;
   }
 
 }
