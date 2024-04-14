@@ -1,3 +1,29 @@
+<div
+  id="root"
+  style="
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+  "
+></div>
+<script>
+  const rootElement = document.getElementById("root");
+  const number = 0;
+  const getRandomNumber = () => {
+    const number =
+      ($(document).scrollTop() / ($(document).height() - $(window).height())) *
+      100;
+    const element = `
+    <input type="range" min="0" max="100" onclick="window.scrollTo(0, ($(document).height() - $(window).height())/100*value)" value="${number}" id="test" style="accent-color: red;"/>`;
+    rootElement.innerHTML = element;
+  };
+  getRandomNumber;
+  window.addEventListener("scroll", getRandomNumber);
+</script>
+
 <!--첫 번째 문단-->
 {% assign cat = page.categories[0] %}
 {% assign cat_list = site.categories[cat] %}

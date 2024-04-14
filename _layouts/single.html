@@ -80,18 +80,14 @@ breadcrumbs.html %} {% endunless %} {% endif %}
         %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %} 
+      {% if page.share %}{% include social-share.html %}{% endif %}
+      {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
+      {% include comments.html %}
+      {% endif %}
     </div>
     
   </article>
   <div class="archive" style="border: none; margin-top: 0px; padding-top: 0px">
   {% include post_pagination.html %}</div>
-  
-  {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
-      {% include comments.html %}
-   {% endif %}
-
-  
-
 
 </div>
