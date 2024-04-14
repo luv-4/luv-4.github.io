@@ -444,6 +444,11 @@ body {
 .page__comments {
 
   float: left;
+  width: 100%;
+
+  @include breakpoint($medium) {
+    width: 100%
+  }
 
   @include breakpoint($large) {
     float: right;
