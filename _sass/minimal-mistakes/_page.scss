@@ -442,7 +442,7 @@ body {
    ========================================================================== */
 
 .page__comments {
-  float: right;
+  float: left;
   margin-left: 0;
   margin-right: 0;
   clear: both;
@@ -453,6 +453,7 @@ body {
   }
 
   @include breakpoint($x-large) {
+    float: right;
     width: calc(100% - #{$right-sidebar-width});
   }
 
