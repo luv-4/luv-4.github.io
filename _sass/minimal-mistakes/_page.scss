@@ -449,10 +449,11 @@ body {
   clear: both;
   float: left;
 
+
   @include breakpoint($large) {
     width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
-    padding-left: 300px;
+    padding-left: 0px;
   }
 
   @include breakpoint($x-large) {
