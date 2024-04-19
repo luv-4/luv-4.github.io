@@ -91,10 +91,10 @@
 .archive__item-teaser {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 0.7;
+  aspect-ratio: 1 / 1.4;
   img {
     width: 100%;
-    aspect-ratio: 0.7;
+    aspect-ratio: 1 / 1.4;
   }
 }
 
