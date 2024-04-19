@@ -233,12 +233,12 @@
 
   .archive__item-teaser {
     @include breakpoint($small) {
-      max-height: 200px;
+      height: 200px;
       background-size: contain;
     }
 
     @include breakpoint($medium) {
-      max-height: 200px;
+      height: 200px;
       background-size: contain;
     }
   }
