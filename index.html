@@ -6,8 +6,8 @@ sidebar_main: ture
 author_profile: true
 entries_layout: grid
 header:
-  overlay_image: /assets/images/background.png
-  overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
+  overlay_image: /assets/images/back.JPG
+  overlay_filter: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0))
 ---
 
 <div style="padding-bottom: 0.5em; white-space: nowrap; font-size: larger">
@@ -21,17 +21,7 @@ header:
     </div>
   </div>
 </div>
-<div style="padding-bottom: 0.5em; font-size: larger">
-  <a href="/categories/implementation">알고리즘 구현</a>
-</div>
-<div style="padding-bottom: 1em">
-  <div>
-    <div class="grid__wrapper">
-      {% for post in site.categories.Implementation limit:4 %} {% include
-      archive-single.html type="grid" %} {% endfor %}
-    </div>
-  </div>
-</div>
+
 <div style="padding-bottom: 0.5em; font-size: larger">
   <a href="/categories/etc">잡동사니</a>
 </div>
@@ -39,6 +29,18 @@ header:
   <div>
     <div class="grid__wrapper">
       {% for post in site.categories.Etc limit:4 %} {% include
+      archive-single.html type="grid" %} {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div style="padding-bottom: 0.5em; font-size: larger">
+  <a href="/categories/implementation">알고리즘 구현</a>
+</div>
+<div style="padding-bottom: 1em">
+  <div>
+    <div class="grid__wrapper">
+      {% for post in site.categories.Implementation limit:4 %} {% include
       archive-single.html type="grid" %} {% endfor %}
     </div>
   </div>
