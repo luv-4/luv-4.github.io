@@ -19,6 +19,8 @@
   }
 }
 
+
+
 .archive__item {
   position: relative;
 
@@ -89,9 +91,10 @@
 .archive__item-teaser {
   position: relative;
   overflow: hidden;
-
+  aspect-ratio: 0.7;
   img {
     width: 100%;
+    aspect-ratio: 0.7;
   }
 }
 
@@ -161,7 +164,7 @@
     filter: brightness(0.5);
   }
 
-  @include breakpoint($small) {
+  @include breakpoint(0px) {
     float: left;
     width: span(5 of 10);
 
@@ -207,6 +210,10 @@
   .page__meta {
     margin: 0 0 4px;
     font-size: 0.6em;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    left: 3%;
   }
 
   .page__meta-sep {
@@ -219,7 +226,14 @@
 
   .archive__item-title {
     margin: 0.5em 0 0.2em 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: $type-size-5;
+    position: absolute;
+    width: 100%;
+    top: 75%;
+    left: 3%;
   }
 
   .archive__item-excerpt {
@@ -232,13 +246,15 @@
   }
 
   .archive__item-teaser {
+
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 78%);
+    
+
     @include breakpoint($small) {
-      height: 200px;
       background-size: contain;
     }
 
     @include breakpoint($medium) {
-      height: 200px;
       background-size: contain;
     }
   }

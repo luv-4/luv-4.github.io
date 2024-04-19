@@ -21,7 +21,9 @@ endif %}
   {% endif %}
     {% if include.type == "grid" and teaser %}
     <div class="archive__item-teaser">
+      <a href="{{ post.url | relative_url }}" rel="permalink">
       <img src="{{ teaser | relative_url }}" alt="" />
+    </a>
     </div>
     {% endif %}
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -38,10 +40,12 @@ endif %}
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %} {% if post.date %}
+    <a href="{{ post.url | relative_url }}" rel="permalink">
     <p class="page__meta">
       <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date
       | date: "%B %d %Y" }}
     </p>
+  </a>
     {% endif %}   
   </article>
 </div>
