@@ -1,6 +1,6 @@
 ---
 title: "잡동사니"
-excerpt: "With Description"
+excerpt: "미분류"
 layout: archive
 permalink: categories/etc
 author_profile: true

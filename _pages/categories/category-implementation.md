@@ -1,6 +1,6 @@
 ---
 title: "알고리즘 구현"
-excerpt: "With Description"
+excerpt: "With C++"
 layout: archive
 permalink: categories/implementation
 author_profile: true
