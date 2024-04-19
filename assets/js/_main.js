@@ -24,7 +24,7 @@ $(function() {
   stickySideBar();
 
   $(window).resize(function() {
-    stickySideBar();
+    stickySideBar();    
   });
 
   // Follow menu drop down
