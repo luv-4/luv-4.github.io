@@ -21,9 +21,9 @@ title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "YongJun"
 description: "empty"
-url: "https://luv-4.github.io"
+url: "https://yongjun49.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "luv-4/comment"
+repository: "yongjun49/comment"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -123,7 +123,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/luv-4"
+      url: "https://github.com/yongjun49"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/yong_zun_"
@@ -139,7 +139,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/luv-4"
+      url: "https://github.com/yongjun49"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
