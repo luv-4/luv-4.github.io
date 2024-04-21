@@ -40,12 +40,13 @@ k진 힙에서 쿼리가 몇번 필요한지 생각해보면 2~N의 구간을 k�
 
 결국 (1/1 + 1/2 + 1/3 + ... + 1/N)의 값이 중요해지는데 수학 비전공자의 지식으로 보기에 대학 수학에서 봤던 p급수인가..?하는 생각이 들어 찾아보니 p급수는 아니고 조화수라는 것이었다.
 
-![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFsN1h%2FbtsEFRpKKJh%2Fs17R1Yl51PkVhhtCfTkCrk%2Fimg.png)
+<div style="text-align : center;"><img style="width: 50%;" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFsN1h%2FbtsEFRpKKJh%2Fs17R1Yl51PkVhhtCfTkCrk%2Fimg.png"/></div>
+<br/>
 
 그리고 이 수열의 합은 일반적인 공식으로는 표현하기는 쉽지 않지만 ln(n)으로 근사가 가능하다.
 
-![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FsAUEp%2FbtsEGMVR99E%2Ft4k747WSklHFYK0wsqMD5k%2Fimg.png)
-
+<div style="text-align : center;"><img style="width: 50%;" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FsAUEp%2FbtsEGMVR99E%2Ft4k747WSklHFYK0wsqMD5k%2Fimg.png"/></div>
+<br/>
 이유는 위와 같이 1/x의 적분이 ln(x)이기 때문이다.
 
 따라서 N*(1/1 + 1/2 + 1/3 + ... + 1/N)은 NlnN으로 근사가 가능하고, 쿼리의 개수가 NlnN이므로 시간복잡도는 O(N(logN)^2)이 되어 AC를 받을 수 있다.
