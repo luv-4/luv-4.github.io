@@ -64,6 +64,33 @@
           </li>
           {% endif %} {% endfor %}
         </ul>
+        <ul>
+          {% for category in site.categories %} {% if category[0] == "Restaurant" %}
+          <li style="padding-bottom: 5px">
+            <a href="/categories/restaurant" class=""
+              >웡슐랭 ({{category[1].size}})</a
+            >
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
+        <ul>
+          {% for category in site.categories %} {% if category[0] == "Alcohol" %}
+          <li style="padding-bottom: 5px">
+            <a href="/categories/alcohol" class=""
+              >술 ({{category[1].size}})</a
+            >
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
+        <ul>
+          {% for category in site.categories %} {% if category[0] == "Diary" %}
+          <li style="padding-bottom: 5px">
+            <a href="/categories/diary" class=""
+              >月기장 ({{category[1].size}})</a
+            >
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
       </li>
     </ul>
   </nav>

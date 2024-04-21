@@ -43,9 +43,9 @@ breadcrumbs.html %} {% endunless %} {% endif %}
   const getRandomNumber = () => {
     const number =
       ($(document).scrollTop() / ($(document).height() - $(window).height())) *
-      100;
+      10000;
     const element = `
-    <input type="range" min="0" max="100" onclick="window.scrollTo(0, ($(document).height() - $(window).height())/100*value)" value="${number}" id="test" style="accent-color: red;"/>`;
+    <input type="range" min="0" max="10000" onclick="window.scrollTo(0, ($(document).height() - $(window).height())/10000*value)" value="${number}" id="test" style="accent-color: red;"/>`;
     rootElement.innerHTML = element;
   };
   getRandomNumber;

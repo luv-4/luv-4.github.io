@@ -6,8 +6,8 @@ permalink: categories/cooking
 author_profile: true
 sidebar_main: true
 header:
-  overlay_image: /assets/images/background.png
-  overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
+  overlay_image: /assets/images/back.jpg
+  overlay_filter: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0))
 ---
 
 {% assign posts = site.categories.Cooking %}
