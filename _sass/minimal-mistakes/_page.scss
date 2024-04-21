@@ -440,6 +440,9 @@ body {
 .page__comments {
   float: left;
   width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  clear: both;
 }
 
 .page__comments-title {
@@ -535,7 +538,7 @@ html {
 .utterances {
   margin-left: 0px;
   margin-right: 0px;
-  width: 100%;
+  max-width: 100%;
 }
 
 
