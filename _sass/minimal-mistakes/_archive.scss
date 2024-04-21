@@ -142,19 +142,25 @@
   .grid__wrapper {
     /* extend grid elements to the right */
 
+    
+
+    @include breakpoint(0) {
+      margin-right: -5px;
+    }
+
     @include breakpoint($large) {
-      margin-right: -1 * $right-sidebar-width-narrow;
+      margin-right: -1.15 * $right-sidebar-width-narrow;
     }
 
     @include breakpoint($x-large) {
-      margin-right: -1 * $right-sidebar-width;
+      margin-right: -1.15 * $right-sidebar-width;
     }
   }
 }
 
 .grid__item {
   display: block;
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
   backdrop-filter: blur(10px);
   height: auto;
   width: auto;
@@ -175,7 +181,7 @@
 
     &:nth-child(2n + 2) {
       clear: none;
-      margin-left: gutter(of 10);
+      margin-left: gutter(of 20);
     }
   }
 
@@ -193,17 +199,17 @@
 
     &:nth-child(4n + 2) {
       clear: none;
-      margin-left: gutter(1 of 12);
+      margin-left: gutter(1 of 24);
     }
 
     &:nth-child(4n + 3) {
       clear: none;
-      margin-left: gutter(1 of 12);
+      margin-left: gutter(1 of 24);
     }
 
     &:nth-child(4n + 4) {
       clear: none;
-      margin-left: gutter(1 of 12);
+      margin-left: gutter(1 of 24);
     }
   }
 
