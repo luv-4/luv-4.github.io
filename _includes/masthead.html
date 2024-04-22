@@ -18,12 +18,13 @@
             </li>
           {%- endfor -%}
         </ul>
-        {% if site.search == true %}
         <button class="search__toggle" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-          <i class="fas fa-search"></i>
+          <i class="fas fa-search" style="color : #d4d4d4">  </i>
         </button>
-        {% endif %}
+        <a href="https://github.com/yongjun49/" style="margin: 0px">
+        <img src="/assets/images/avatar.jpg" style="height: 35px; margin-left: 0.8em; border-radius: 10%;">
+        <span style="margin-left: 6px; margin-right:5px; font-size: 10px; color:#d4d4d4">▼</span>
+      </a>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
