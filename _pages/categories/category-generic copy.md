@@ -1,5 +1,5 @@
 ---
-title: "일반화 프로그래밍"
+title: "백준 문제 풀이"
 excerpt: "with C++"
 layout: archive
 permalink: categories/generic
@@ -11,7 +11,7 @@ header:
   overlay_filter: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0))
 ---
 
-{% assign posts = site.categories._pages/categories/category-Generic.md %}
+{% assign posts = site.categories._pages/categories/category-Baekjoon.md %}
 
 <div class="grid__wrapper">
 {% for post in posts %} {% include archive-single.html type="grid"
