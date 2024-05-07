@@ -2,7 +2,7 @@
 title: "백준 문제 풀이"
 excerpt: "with C++"
 layout: archive
-permalink: categories/generic
+permalink: categories/baekjoon
 author_profile: true
 entries_layout: grid
 sidebar_main: true
@@ -11,7 +11,7 @@ header:
   overlay_filter: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0))
 ---
 
-{% assign posts = site.categories._pages/categories/category-Baekjoon.md %}
+{% assign posts = site.categories.Baekjoon %}
 
 <div class="grid__wrapper">
 {% for post in posts %} {% include archive-single.html type="grid"
