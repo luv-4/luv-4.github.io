@@ -1,6 +1,6 @@
 ---
 title: "웡슐랭"
-excerpt: "맛있었던 음식점들"
+excerpt: "맛있었던 식당들"
 layout: archive
 permalink: categories/restaurant
 author_profile: true

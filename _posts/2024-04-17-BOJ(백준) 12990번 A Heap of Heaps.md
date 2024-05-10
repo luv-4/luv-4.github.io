@@ -1,6 +1,6 @@
 ---
 title: "BOJ(백준) 12990번 A Heap of Heaps"
-excerpt: " "
+excerpt: "ㅤ"
 header:
   overlay_image: https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/images/boj-og.png
   overlay_filter: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0))

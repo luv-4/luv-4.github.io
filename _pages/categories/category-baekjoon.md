@@ -1,6 +1,6 @@
 ---
 title: "백준 문제 풀이"
-excerpt: "with C++"
+excerpt: "With C++"
 layout: archive
 permalink: categories/baekjoon
 author_profile: true

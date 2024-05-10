@@ -1,6 +1,6 @@
 ---
 title: "일반화 프로그래밍"
-excerpt: "with C++"
+excerpt: "With C++"
 layout: archive
 permalink: categories/generic
 author_profile: true
